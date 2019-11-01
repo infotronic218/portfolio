@@ -59,5 +59,9 @@ export default {
   opacity: 0;
   transform: translateX(-30%) !important;
 }
+
+.page-title{
+  color: white ;
+}
   
 </style>

@@ -1,50 +1,102 @@
 <template>
-    <div class="row p-0 m-0">
+    <div class="container-fluid p-0 mb-3">
        <div class="col-sm-12 p-3 content-top-bg w-100">
-               <h4 class="text-center text-uppercase mt-2">Experiences</h4>
+               <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-star"></i> Experiences</strong></h4>
        </div>
        <div class="col-sm-12">
-          <div class="row mt-2">
-            <div class="col-sm-2">
-                <div class="img-container">
-                    <img src="data:image/png;base64,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" class="img">
+       <div class="row mt-2  justify-content-center align-items-center">
+            <div class="col-sm-3 p-0">
+                <h6 class="text-center text-uppercase text-primary"> 
+                    <i class="fas fa-calendar    "></i>
+                   From 05/08/2019 to 27/10/2019
+                </h6>
+            </div>
+            <div class="col-sm-9 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="row mt-2">
+                        <div class="col-sm-3">
+                            <div class="img-container">
+                                <img src="@/assets/acome.png" class="img">
+                            </div>
+                        </div >
+                        <div class="col-sm-9">
+                            <h5 class="text-primary">
+                                Internship at ACOME MAROC in the departement of maintainance
+                            </h5>
+                            <p class="p-2">The subject treated in the internship is the measurement of the electrical
+                                 consumption of the machines and the storage in a time serie database 
+                                 for the energetic efficiency </p>
+                            <h6>Keywords</h6>
+                            <p>
+                                 <span class="badge badge-10 m-1 p-2">Iot </span>
+                                 <span class="badge badge-10 m-1 p-2">Egauge meter</span>
+                                 <span class="badge badge-10 m-1 p-2">Current Sensor</span>
+                                <span class="badge badge-10 m-1 p-2">Python </span>
+                                 <span class="badge badge-10 m-1 p-2">Push Api </span>
+                                  <span class="badge badge-10 m-1 p-2">Time serie database </span>
+                                   <span class="badge badge-10 m-1 p-2">Dashboard </span>
+                                  
+                            </p>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-9">
-                 <h5>
-                     From August to september 2019 internship at ACOME MAROC in the departement of maintainance.
-                 </h5>
-                 <p>
-
-                 </p>
-            </div>
-          </div>
-
-          <div class="row mt-2">
-            <div class="col-sm-2 m-0">
-                <div class="img-container">
-               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADjCAMAAADdXVr2AAAAkFBMVEX///8VdcW9vLwAbsMAasEAb8MPc8QAcMMAaMG5uLgGcsQAa8Lx9/wuf8lak9D2+fzl7ffR4fGfv+KXueCqx+aErNtyotbJyMg4hMtHic2xy+jx8fG+0+sifMiMst06hsvP3/Hb6PXa2dnPzs7j4+Ps7OzV1NRimdMAY79Njs5nnNR3pdiTt9+90+uwyeYAXr2DvkeaAAAND0lEQVR4nO1d63riIBCt5m5so7Y2ttZWjVrtbd//7Vaj0QAzhCEksf1yfu02BDgwwNyINzctWrRo8RvQn/98jR8/Pj7Ho+9F050xi8HDe88PLcfbo+c5VuhPxvOmO2UI/dHEdjy3w8D1Qu/zD0zi8N23OGoXhhLYt99Nd70Yw53tgdyK4YaT4QBCv2lSGfoffk+T3JGgDcEfN83riB9Ld+bksGbXsGjfbXjNlYfrPzRNbjAzNXWQjP67ixplNwypU+dieIP2l0WjG8wLXTA9B4H90SQTCHOfys5pfDWpY+H3UFFD0POvYTdUQvT2pIFd091ukSLSRNP9VsPOtrTg3zfdcxW82NQj4QQ3/A3z19FWxbyPnwcU86Z5HfHl6LLb85PJbtPEUvR1RbOQ+t0Ywme9ytl7NTbQHj0PQlir8Tf3q2KHwR/USG9WlYmXogfAqVHhHoVVsuu83wF4qm36IsQnRgK+d27rlEMAjyb2FfzoG700ym7oU80gAOG8UQ4SvJnYV3qzpmm0+HsYPZrCT9NUAAx8WGvSgH2FhtGuTDSBhXMlQYQctI1YCB6kfWVohJ5ZZVNyLlqvfTAsVim7ipXNPDwwKratUqAjp1JLQQV2hXbtuIQHwhC86gyjQc1GrAMF4/8Nq6J3Z+5QUGI3mkOoKkgxr8R95PgYtpOKiMC4rWJfsZ5r5YBj5JvSxvJwrkU1A/2PBtCsbd7iD2BnYSH/0qjVQwvj2zbgPkJQoSKiCrdKZTN8eEbxU0fs5NWqkJ3MpWvVke0yqCrcpUL9FYTJCPYd0S1tNDoGpzH55rJcqeEu97Oy6N+ljY4xekQPhHN/0zPrs4B8Mbap9C2iB+Iwrs8mnRbuBAqI7e7MsIuIOY32YVVMyNPnose+ZU4OARDDXb2nw0tk29B9Gt1j+KowzW5B7Ogp5Y+62XasZgyjmS+7hiDAfzy+NtiSXtu/+N4Eu2g+JGGeTcKC9t7+zSbo/W08j2jIHUaLe+K797Un6g62tGTGbd4xJNOUIYRPddMjhrt6TAfJ0SS7ZrcLtYNcHjg5Ftib4aggB5vYO++RfX1BdtpLbHr72XTq8j3NiHUt3rI2ajk48GrXjtD3icqmNeJriKo3g11Xlx5R2YQsMOL868DRtNupKwfc9/QzriFYkDa31XM2EXOreuDW9m3S8LOeoYDYi5ablGqRIpeD6AloIR4RM2TBHkD0J3ifcDVD6u5iVRZ9zWPskxzpFhrH+ghJFTnhWx30XlHbGTaoUX2q/0Wr6f71am50/1oQL3VJB7x/dXfEZujupRHkH29ptflVX7Sh5lYVROioTl3rq1J21ER+7FDI8Ew9HJzv7xcM5WMLREXfLfThPVENP1D7OnnUysaGqJ5N0VIQajSYreX2YE+N8qwSx9pVSNk3crEjaw82/FQj9N/EyVPxkPSrzwPtKYZxiTZMT0nPNWv4gd6KrZIfkXprVFEoTOYeuKCvqaMyzn3iLqCazk4VeWlETN9r9mH6UMhAPRzc3RecNLDHWDfRhxqXC5VDwNTDwWDw/IKODyagY/AJ97get6Sqq0h6j8C7AxJQbDNq3c2nmv0uvOA3PuFroLTqv4nVP5i12/tbWlajX2Ap8HjZ0twuttl4NPFTAq5HNaupNwVskwHN6g6FDNR7Hu7sDcWEmipIzK1yb6ns6CEjWZarPyc1PSJqvTat+hR9Exf6M3jgPVCkW2QPhJZH/N7kJStwUnuwUFFvd2kmeJvNFYQQQvdaqrIUeBjNFeyAXnwHaJY4ea6j62ul5wri8GBtQDxOqCuPfihkGJLdSvDHV1OtW9Vr9kDMEtA4FDJQcwWtRdRHodjmhPYxQ+KZw2BAvPFh4Ds7/dmEhMfiKnG83tIa6/yaj0K2qADR7LY8ZsBJ+GCi4tuy4egXE/e7HMD6G4UGKnbLxvuMaIJQGIx43iAIhwscCvQeTVxIr45eBw+H2Soza+S+fYX0JHAf4HjYH6GHZTT/FXog2DTI919MDwxmOszsXfvWIoGD3BrI9+L1ug8G+MsmR/wTGxVA9SKBqI6e8zwEP22SQoHeiwkPQXX07JLBlMU/WmwKNp0BK2lEDHrB+Fc2VoSbwwQA3heJnU1BSXZ/HeTQFIS5WO+QeAkMRulvJRJTi+FwFWQQ+cRbYBDKx8FMbJ0eZM6a2DkdYpRURGQgp60yeu7bDsWTmjfZwEfQK6MHf3XgCEV/qwHprI6eDHD+lZC2VP6yTzP0YLePkK1cXu1shh6IULjJUv6qXRP00h+uOJxKrLFniz0p/XHKBuh5j3m14vR1pcO/xJ6UTpitih4e/7L/EbTRstNXEb1wXs7JmSGyZR8aLoYFeqnL1bmv1Vhm0mgHfdVGGTsgVPpcrspDrbVc52tx/bgjxk0Z3ALCWTYABgXV9NG3yL8XmNOEXsUKSwbATH86fVHiR1Y9gF7Jg8EZDYwcCmcM9flVQK/joCe6Zs7X0NJ1yFdBT9IYfLtvXsRvMNPUXmql14F/BlzlJ4w+9AS0XnoQXFtJB/h2dFwTjdNzfcWPEUWPGr8wXhM9N0T8heFEfTNd7GwqQXP0JK4jz36bK5OQYX7ne6Q1aIie69mTO9Tx92FOwx6MeyGBoRF6Xmh91mcjzMcTG5N1Hj6gH6o74Q/ektCf1f6F+Gj4jX81mvmC9Fx8efHwo4iH0ehn3ka6WrRo0aJFixYtWvwtTKfrqUqx1XKTJJvlSlJ4ul7tIatuuoy73W6ygp5Fx2drsI8wivq8jIMU3aUsdSRKi3UPOBQGe7dKusEZCIGb5FjJvuRSrCBrocv2Osr6KKIrZ5e1lta6wUqt4yBX7tiDTVRUJACmIf885p4tLxUE+TdXfM15yMit2feQsZjGYPX50VgjRWJOeGLmKTt/03wVwWXwVhJyUnpr8UWg1AatPsjkDybHj4HQ04BpJ2Gend+bStlJ6EEv8gJzM+3i1QdJ8fAy64h/xixPrhbkHXV6CVA64DYEYIL5upfy4c2tI6GyJNcSMrNy0ZTQi+AXmTLyiUn7jcuuwE8cz1xTMfxSLLwj6W4eG7gv+emTD12ixm5f50k+0QfAYGf7TlH1KD3sxUsJuWR2iwfg3Nd0HwTW+mXvFCpKytHDOnZZKoj0ZuVWcI9BxMhoXXYyUQjL0ZN3BW5RKFbQ9hmpqAF70OV4E56dHmnSwwUva1K+IwbqopkWn4KL/bzSxZpOUqRJDzoVTvWqLOpjvwqaziOGpSE7GoBnyzL0JK8dpRPaWE9qbFYGkrbDY0hH3E8f1FaAdycuQU8mVsftWpSW7nL/IJquDup7BE5eEB+NpelS1HUSmN4a7w5IL+YA05NuG+A+kFeAV6loiss3d2aK78O77AZdKuAoI3Q4FOupwt9Ew5HvUyxvAlnt4Byl9Fba9JZSdvtxEzoHmMV8EdoQXtrCtvGlNr2CJle8bAUAO95YFIx9pWMjlXl4YmNoDM+LDrW9xdHid8mYX5ui44DfWgHfQqE6fCaBPILoMe8h4EYrmPLqOldrAFXCv1I8iiD2s46US0VGhx6vnQtyxE0nWBX7SgIVUWB3WAnIppPuLRr0+NFKirYBSDbZV3gz+AhF6cQa3+jR42VzVTDOYN/ZCQ8g3yRiUvJYyhho0BNks6AjYN+XxUUKzp9CBFr0+IV2KCjdBcDZY0WgzOzh7U516PGyCR2fLKC1x64r6FxQXHs4DsNKp8fL5rSwJ1BVKq1pEzsh0aAnKBPwX/OADjWFIurWLgYNevwpc9Ru5EcDIHp8eUBJklSIrcol879Agx4om0VHg6BzCkexWEQyecEK5pes+eOGSk9TYqLiWriGZJtxsAaf7jco9s/8/4stBtzJIgez88NuJmYI5EfNFDbxeI+FoNEU0tNd7kFylj4kIsacj3LvdQAvhkA4Tqn0lLR4pE8HT0q0XkrCXak7Zt9IoWsePvJjXi6CKV9kyYJXOHRl89ja2VMmKQJ7yljE4Oo96Abc8K8KOsTPZlHD9SABXfyAgVc0Gxy9ErJpEKkKB/ydPv4cvZJKriGke5DYlQ199XD0THWwHFIpFBbf0eqgncsFzsd6wG+ARwVVoKfRRZZeURycg0LoVclbJBziaWd4I0UxYMmApSeYPazDnu/WqnAnClbFIyZ6hY+d4pMFFKPpQE0nCAFsTg3mV3tyIxyrXAWrwsUSHHQ1rswGnCed3Y+hB5t6+NI8rAZcR+meFFFMRztWkYiLIlPemL9KIpkSMPT4TVcw46DsixW2voKzbxPN+gpOmjjn0c6EhnkLGeNEypahVyCbkAf0OMpQPDLO2xBwkXNEjHPMANKU6wtHTzqbeXp85wH1m+9g1ntOjwxy9kPWVW6SmYRArlrhpSDvaeNE6GYt2Z7zFJZcZBPw7/Eq7MUIumRrduMl6PY7xGQzxBumCNtu3m+RxnrZVcJ1c3rIFOWDsgpxIg1Mp1P599AilRTZFi1atPgN+A8eyQo1tnswkwAAAABJRU5ErkJggg==" class="img">
-                </div>
-            </div>
-            <div class="col-sm-9">
-                 <h5>
-                     From August to september 2019 internship at ACOME MAROC in the departement of maintainance.
-                 </h5>
-                 <p>
-                     
-                 </p>
-            </div>
-          </div>
+           </div>
        </div>
+       
+       <div class="row mt-2  justify-content-center align-items-center">
+            <div class="col-sm-3 p-0">
+                <h6 class="text-center text-uppercase text-primary"> 
+                    <i class="fas fa-calendar    "></i>
+                   From 03/08/2018 to 30/10/2018
+                </h6>
+            </div>
+            <div class="col-sm-9 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-sm-3">
+                            <div class="img-container" style="display:table-cell; vertical-align:middle; text-align:center">
+                                <img src="@/assets/greepsys.png" class="img">
+                            </div>
+                        </div >
+                        <div class="col-sm-9">
+                            <h5 class="text-primary">
+                                Internship at GREEPSYS MAROC in the department of electricity
+                            </h5>
+                            <p class="p-2">
+                           The work carried out during this internship was the study of the 
+                           dimensioning and the installation of
+                          a system of solar energy for the feeding of an isolated house </p>
+                            <h6>Keywords</h6>
+                            <p>
+                                 <span class="badge badge-10 m-1 p-2">Solar energy </span>
+                                 <span class="badge badge-10 m-1 p-2">Solar panels</span>
+                                 <span class="badge badge-10 m-1 p-2">Electrical wire size calculation</span>
+                                 <span class="badge badge-10 m-1 p-2">Battery capacity calculation </span>
+                                 
+                                  
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+       </div
+>
     </div>
 </template>
 <style >
   .img-container{
-      height: 100px;
-      width: 100px;
+     
   }
   .img{
       max-width: 100%;
       height: auto;
+  }
+  .settings{
+      outline: 2px solid red ;
   }
 </style>

@@ -4,13 +4,15 @@ import 'jquery'
 import 'popper.js'
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'font-awesome/css/font-awesome.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import routes from './routes'
+
 const router = new VueRouter({
     routes: routes,
-    mode: 'history'
+    mode: 'history',
+    base: '/'
 });
 
 Vue.config.productionTip = false

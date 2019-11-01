@@ -1,28 +1,47 @@
 <template>
-    <div class="row p-0 m-0  justify-content-center">
+    <div class="row p-0 m-0  justify-content-center mb-3">
     
        <div class="col-sm-12 p-3 content-top-bg w-100">
-               <h4 class="text-center text-uppercase mt-2">Projects</h4>
+               <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-address-card" aria-hidden="true"></i> Contact</strong></h4>
        </div>
        <div class="col-sm-8">
           <h5 class="text-center p-2">For more informations about myself or to ask any questions, don't hesitate to contact me throught 
               one of my contats listed below.
           </h5>
        </div>
-       <div class="col-sm-8">
-           <div class="row justify-content-center p-3">
-                <div class="col-sm-4">
-                    <h4 class="text-center">Phone </h4>
-                    <i class="fa fa-phone" aria-hidden="true"> 00212631053884</i>
+       <div class="col-sm-10">
+           <div class="row justify-content-center h-100 p-3">
+                <div class="col-sm-4 p-1">
+                   <div class="card h-100">
+                        <div class="card-header">
+                          <h4 class="text-center">
+                              <i class="fa fa-phone text-primary" aria-hidden="true"></i>
+                               Phone</h4>   
+                            <h6 class="text-center py-2"> <a class="text-center" href="tel:+212631053884" target="blank">00212631053884</a></h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h4 class="text-center">Email</h4>
-                    <i class="fas fa-mail-bulk    ">ousseni218@gmail.com</i>
+                <div class="col-sm-4 p-1">
+                    <div class="card h-100">
+                        <div class="card-header">
+                          <h4 class="text-center">
+                             
+                              <i class="fa fa-envelope text-primary" aria-hidden="true"></i>
+                               Email</h4>
+                          
+                             <h6 class="text-center py-2"><a class="text-center" href="mailto:ousseni218@gmail.com" target="blank">ousseni218@gmail.com</a></h6>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h4 class="text-center">Linkdin</h4>
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <a href="linkedin.com/in/ousseni-sawadogo-a59099140/" target="blank">My Porfil</a>
+                <div class="col-sm-4 p-1">
+                    <div class="card h-100">
+                        <div class="card-header">
+                          <h4 class="text-center">
+                              <i class="fab fa-linkedin text-primary" aria-hidden="true"></i>
+                               LinkedIn </h4>
+                            <h6 class="text-center py-2"> <a class="text-center" href="https://linkedin.com/in/ousseni-sawadogo-a59099140/" target="blank">Ousseni Sawadogo</a></h6>
+                        </div>
+                    </div>
                 </div>
            </div>
        </div>

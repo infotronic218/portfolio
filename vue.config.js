@@ -1,3 +1,3 @@
-module.exports = {
-    publicPath: '/portfolio/'
-}
+/*module.exports = {
+    publicPath: 'https://infotronic218.github.io/portfolio',
+}*/
