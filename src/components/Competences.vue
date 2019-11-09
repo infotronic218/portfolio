@@ -75,8 +75,11 @@
                        <span class="badge badge-10 m-1 p-2">Java EE/ Spring Boot </span>
                        <span class="badge badge-10 m-1 p-2">Django </span>
                        <span class="badge badge-10 m-1 p-2">Android Studio </span>
+                       <span class="badge badge-10 m-1 p-2">Eclipse </span>
+                       <span class="badge badge-10 m-1 p-2">Pycharm</span>
                        <span class="badge badge-10 m-1 p-2">VHDL </span>
                        <span class="badge badge-10 m-1 p-2">SQL </span>
+                       
                     </div>
                   </div>
              </div>
@@ -95,8 +98,12 @@
                        <span class="badge badge-10 m-1 p-2">AVR Studio</span>
                        <span class="badge badge-10 m-1 p-2">Microchip MPlab XC8</span>
                        <span class="badge badge-10 m-1 p-2">KiCad</span>
+                       <span class="badge badge-10 m-1 p-2">Altium Designer</span>
+                       
                        <span class="badge badge-10 m-1 p-2">Easy Eda</span>
                        <span class="badge badge-10 m-1 p-2">Catia V5</span>
+                       <span class="badge badge-10 m-1 p-2">Schemaplic</span>
+                       <span class="badge badge-10 m-1 p-2">Control Station</span>
                     </div>
                   </div>
              </div>

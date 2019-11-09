@@ -8,7 +8,7 @@
             <div class="col-sm-3 p-0">
                 <h6 class="text-center text-uppercase text-primary"> 
                     <i class="fas fa-calendar    "></i>
-                   From 05/08/2019 to 27/10/2019
+                   From 05/08/2019 to 27/09/2019
                 </h6>
             </div>
             <div class="col-sm-9 mt-2">
@@ -49,7 +49,7 @@
             <div class="col-sm-3 p-0">
                 <h6 class="text-center text-uppercase text-primary"> 
                     <i class="fas fa-calendar    "></i>
-                   From 03/08/2018 to 30/10/2018
+                   From 03/08/2018 to 30/09/2018
                 </h6>
             </div>
             <div class="col-sm-9 mt-2">

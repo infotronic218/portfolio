@@ -18,7 +18,7 @@
                     <div class="card-body">
                         <h4 class="text-center"> <strong> Ingeneering Student in Electronics Electrotechnics and Automatics</strong> </h4>
                         <h5 class="ml-2">University Abdelmalek Essadi of Tanger (Morroco )</h5>
-                        <h6 class="ml-4">Faculty of sciences an techniques of Tanger</h6>
+                        <h6 class="ml-4">Faculty of Sciences and Techniques of Tanger</h6>
                     </div>
                 </div>
              </div>
@@ -36,7 +36,7 @@
                     <div class="card-body">
                         <h4 class="text-center"> <strong>Diploma of Scientific and Technical University Studies (DEUST) in Electricals and Mecanicals Engineering </strong> </h4>
                         <h5>University Assan 1er of Settat (Morroco )</h5>
-                     <h6 class="ml-4">Faculty of sciences an techniques of Settat</h6>
+                     <h6 class="ml-4">Faculty of Sciences and Techniques of Settat</h6>
                     </div>
                 </div>
              </div>
