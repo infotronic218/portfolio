@@ -4,6 +4,96 @@
                <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fas fa-project-diagram    "></i> Projects</strong></h4>
        </div>
        <div class="col-sm-12">
+
+
+         <div class="row  align-items-center">
+          <div class="col-sm-2">
+            <h6 class="text-center text-primary"> 
+                    <strong>
+                    <i class="fas fa-calendar    "> </i>
+                   January 2020</strong>
+                </h6>
+          </div>
+         <div class="col-sm-10 mt-2">
+            <div class="card ">
+               <div class="card-body">
+                  <h5 class="text-primary">DC Motor speed control  circuit design  </h5>
+                  <p>The goal of the project was to control the speed of a DC motor using a PID controller and H brigde. 
+                     It's also contains an android application build in android allowing the user user to specify the desired 
+                     speed and the direction.
+                  </p>
+                  <h5 class="">Keywords </h5>
+                  <h5 >
+                     <span class="badge badge-7 m-1">PWM</span> 
+                     <span class="badge badge-7 m-1">MOSFET</span>
+                     <span class="badge badge-7 m-1">H-Bridge</span>
+                     <span class="badge badge-7 m-1">ATMEGA328P</span>
+                     <span class="badge badge-7 m-1">Android Studio</span>
+                     <span class="badge badge-7 m-1">AVR Studio</span>
+                     <span class="badge badge-7 m-1">HC06</span>
+                     <span class="badge badge-7 m-1">JAVA</span>
+                     <span class="badge badge-7 m-1">PID</span>
+                     <span class="badge badge-7 m-1">PCB Design</span>
+                     <span class="badge badge-7 m-1">KICAD</span>
+                  </h5>
+                  <h5 hidden>Screenshots </h5>
+                   <galery :images="images" :index="null" @close="index = null"></galery>
+                  <!--- <div class="row">
+                   <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
+                       <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
+                   </div>
+                   
+                   </div>
+                   -->
+                   <div> 
+                   </div>
+               
+               </div>
+            </div>
+         </div>
+       </div>
+
+              <div class="row  align-items-center">
+          <div class="col-sm-2">
+            <h6 class="text-center text-primary"> 
+                    <strong>
+                    <i class="fas fa-calendar    "></i> December 2019
+                    
+                    </strong>
+                </h6>
+          </div>
+         <div class="col-sm-10 mt-2">
+            <div class="card ">
+               <div class="card-body">
+                  <h5 class="text-primary">Automatic control of tank filling with LabView  </h5>
+                  <p>This project is design to control the filling of a tank using a PID controller, 
+                     LabView and the FPGA board  Spartan 3E of Xillinx.<Label></Label>
+                  </p>
+                  <h5 class="">Keywords </h5>
+                  <h5 >
+                     <span class="badge badge-7 m-1">LabView</span> 
+                     <span class="badge badge-7 m-1">FPGA</span>
+                     <span class="badge badge-7 m-1">PID Controller</span>
+                     <span class="badge badge-7 m-1">DAC</span>
+                     <span class="badge badge-7 m-1">ADC</span>
+                  </h5>
+                  <h5 hidden>Screenshots </h5>
+                   <galery :images="images" :index="null" @close="index = null"></galery>
+                  <!--- <div class="row">
+                   <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
+                       <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
+                   </div>
+                   
+                   </div>
+                   -->
+                   <div> 
+                   </div>
+               
+               </div>
+            </div>
+         </div>
+       </div>
+
        <div class="row  align-items-center">
           <div class="col-sm-2">
             <h6 class="text-center text-primary"> 
@@ -166,7 +256,8 @@
                   </p>
                   <h5 class="">Keywords </h5>
                   <h5 >
-                     <span class="badge badge-7 m-1">C++ </span> 
+                     <span class="badge badge-7 m-1">C++</span> 
+                     <span class="badge badge-7 m-1">POO</span> 
                      <span class="badge badge-7 m-1">Qt creator</span>
                      <span class="badge badge-7 m-1">Configuration File</span>
                   </h5>

@@ -1,7 +1,7 @@
 <template>
     <div class="row p-0 m-0 mb-3">
        <div class="col-sm-12 p-3 content-top-bg w-100">
-               <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-cogs" aria-hidden="true"></i> Competences</strong></h4>
+            <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-cogs" aria-hidden="true"></i> Competences</strong></h4>
        </div>
        <div class="col-sm-12 mb-3">
           <div class="row h-100">
@@ -14,10 +14,16 @@
                        <span class="badge badge-10 m-1 p-2">Analogics Electronics</span>
                        <span class="badge badge-10 m-1 p-2">Numerics Electronics</span>
                        <span class="badge badge-10  m-1 p-2">Power of Electronics</span>
+                       <span class="badge badge-10 m-1 p-2">Electronics of systems</span>
                        <span class="badge badge-10 m-1 p-2">Microcontrollers and microprocessors architectures</span>
-                       <span class="badge badge-10 m-1 p-2">Electronics of systmes</span>
-                       <span class="badge badge-10 m-1 p-2">Printed circuit board design (PCB) </span>
-                       
+                       <span class="badge badge-10  m-1 p-2">FPGA Design</span>
+                       <span class="badge badge-10 m-1 p-2">PCB </span>
+                       <span class="badge badge-10 m-1 p-2">DAC </span>
+                       <span class="badge badge-10 m-1 p-2">ADC </span>
+                       <span class="badge badge-10 m-1 p-2">PWM </span>
+                       <span class="badge badge-10 m-1 p-2">USART </span>
+                       <span class="badge badge-10 m-1 p-2">I2C </span>
+                       <span class="badge badge-10 m-1 p-2">SPI </span>
                     </div>
                   </div>
              </div>
@@ -43,7 +49,9 @@
                     <div class="card-body">
                            <span class="badge badge-10 m-1 p-2">Linears Systems corrections</span>
                            <span class="badge badge-10 m-1 p-2">State feedback modelisations of systems</span>
-                          <span class="badge badge-10 m-1 p-2">Discrets time systems</span>
+                           <span class="badge badge-10 m-1 p-2">Discrets time systems</span>
+                           <span class="badge badge-10 m-1 p-2">Automatic fuzzy control</span>
+                           <span class="badge badge-10 m-1 p-2">Numerics Controls</span>
                     </div>
                   </div>
              </div>
@@ -58,6 +66,12 @@
                        <span class="badge badge-10 m-1 p-2">Ladder programming</span>
                        <span class="badge badge-10 m-1 p-2">TIA PORTAL of Siemens</span>
                        <span class="badge badge-10 m-1 p-2">EM4 of Crouzet</span>
+                        <span class="badge badge-10 m-1 p-2">ASI</span>
+                        <span class="badge badge-10 m-1 p-2">PROFIBUS</span>
+                        <span class="badge badge-10 m-1 p-2">MODBUS</span>
+                        <span class="badge badge-10 m-1 p-2">CAN</span>
+                        <span class="badge badge-10 m-1 p-2">ETHERNET</span>
+
                     </div>
                   </div>
              </div>
@@ -67,16 +81,20 @@
                         <h6 class="text-white text-uppercase"><strong>Programming Languages and frameworks</strong></h6>
                     </div>
                     <div class="card-body">
-                       <span class="badge badge-10 m-1 p-2">C/ C++</span>
+                       <span class="badge badge-10 m-1 p-2">C/C++</span>
                         <span class="badge badge-10 m-1 p-2">Assembly</span>
                        <span class="badge badge-10 m-1 p-2">Java</span>
                        <span class="badge badge-10 m-1 p-2">Python</span>
                        <span class="badge badge-10 m-1 p-2">JavaScript</span>
+                       <span class="badge badge-10 m-1 p-2">NodeJS/VueJS</span>
                        <span class="badge badge-10 m-1 p-2">Java EE/ Spring Boot </span>
-                       <span class="badge badge-10 m-1 p-2">Django </span>
+                       <span class="badge badge-10 m-1 p-2">Python/Django </span>
                        <span class="badge badge-10 m-1 p-2">Android Studio </span>
+                       <span class="badge badge-10 m-1 p-2">Linux/ROS</span>
+                       <span class="badge badge-10 m-1 p-2">FreeRTOS</span>
                        <span class="badge badge-10 m-1 p-2">Eclipse </span>
                        <span class="badge badge-10 m-1 p-2">Pycharm</span>
+                       <span class="badge badge-10 m-1 p-2">OpenCV</span>
                        <span class="badge badge-10 m-1 p-2">VHDL </span>
                        <span class="badge badge-10 m-1 p-2">SQL </span>
                        
@@ -122,6 +140,7 @@
                        <span class="badge badge-10 m-1 p-2">STM 32</span>
                        <span class="badge badge-10 m-1 p-2">Xilinx Spartan 3E</span>
                        <span class="badge badge-10 m-1 p-2">NI CompactRIO</span>
+                       
                     </div>
                   </div>
              </div>

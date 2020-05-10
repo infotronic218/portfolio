@@ -4,11 +4,13 @@
                <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-star"></i> Experiences</strong></h4>
        </div>
        <div class="col-sm-12">
-       <div class="row mt-2  justify-content-center align-items-center">
+
+     
+       <div v-for="(exp, index) in experiences" :key="index" class="row mt-2  justify-content-center align-items-center">
             <div class="col-sm-3 p-0">
                 <h6 class="text-center text-uppercase text-primary"> 
                     <i class="fas fa-calendar    "></i>
-                   From 05/08/2019 to 27/09/2019
+                   {{exp.start}} to {{exp.end}}
                 </h6>
             </div>
             <div class="col-sm-9 mt-2">
@@ -17,66 +19,19 @@
                     <div class="row mt-2">
                         <div class="col-sm-3">
                             <div class="img-container">
-                                <img src="@/assets/acome.png" class="img">
+                                <img :src="exp.image" class="img">
                             </div>
                         </div >
                         <div class="col-sm-9">
-                            <h5 class="text-primary">
+                            <h5 class="text-primary" v-text="exp.title">
                                 Internship at ACOME MAROC in the departement of maintainance
                             </h5>
-                            <p class="p-2">The subject treated in the internship is the measurement of the electrical
+                            <p class="p-2" v-text="exp.description">The subject treated in the internship is the measurement of the electrical
                                  consumption of the machines and the storage in a time serie database 
                                  for the energetic efficiency </p>
                             <h6>Keywords</h6>
                             <p>
-                                 <span class="badge badge-10 m-1 p-2">Iot </span>
-                                 <span class="badge badge-10 m-1 p-2">Egauge meter</span>
-                                 <span class="badge badge-10 m-1 p-2">Current Sensor</span>
-                                <span class="badge badge-10 m-1 p-2">Python </span>
-                                 <span class="badge badge-10 m-1 p-2">Push Api </span>
-                                  <span class="badge badge-10 m-1 p-2">Time serie database </span>
-                                   <span class="badge badge-10 m-1 p-2">Dashboard </span>
-                                  
-                            </p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-           </div>
-       </div>
-       
-       <div class="row mt-2  justify-content-center align-items-center">
-            <div class="col-sm-3 p-0">
-                <h6 class="text-center text-uppercase text-primary"> 
-                    <i class="fas fa-calendar    "></i>
-                   From 03/08/2018 to 30/09/2018
-                </h6>
-            </div>
-            <div class="col-sm-9 mt-2">
-                <div class="card">
-                    <div class="card-body">
-                    <div class="row mt-2 justify-content-center">
-                        <div class="col-sm-3">
-                            <div class="img-container" style="display:table-cell; vertical-align:middle; text-align:center">
-                                <img src="@/assets/greepsys.png" class="img">
-                            </div>
-                        </div >
-                        <div class="col-sm-9">
-                            <h5 class="text-primary">
-                                Internship at GREEPSYS MAROC in the department of electricity
-                            </h5>
-                            <p class="p-2">
-                           The work carried out during this internship was the study of the 
-                           dimensioning and the installation of
-                          a system of solar energy for the feeding of an isolated house </p>
-                            <h6>Keywords</h6>
-                            <p>
-                                 <span class="badge badge-10 m-1 p-2">Solar energy </span>
-                                 <span class="badge badge-10 m-1 p-2">Solar panels</span>
-                                 <span class="badge badge-10 m-1 p-2">Electrical wire size calculation</span>
-                                 <span class="badge badge-10 m-1 p-2">Battery capacity calculation </span>
-                                 
-                                  
+                                 <span v-for="(key, index) in exp.keywords" :key="index" class="badge badge-10 m-1 p-2" v-text="key">Iot </span>
                             </p>
                         </div>
                         </div>
@@ -88,6 +43,44 @@
 >
     </div>
 </template>
+<script>
+export default {
+    data(){
+       return{ experiences:[
+            {start:"Mars 2020",
+             end:"Now",
+             title:"Graduation Internchip at ConnectToAll Morroco Tanger",
+             description:"Working with IOT Team to designing Wireless NetWork sensors for monitoring irrigation data ",
+             keywords:['PCB DESIGN','Kicad','GSM','RF','IOT','Wireless Network',
+               'Pyhton','Websocket','RestApi','C/C++','Raspberry Pi'],
+             image:require('../assets/c2a.png'),
+             },
+             {start:"From 03/08/2018 ",
+             end:" 30/09/2018",
+             title:"Internship at ACOME MAROC at the departement of maintainance",
+             description:"The subject treated in the internship is the measurement of the electrical"+
+                                " consumption of the machines and the storage in a time serie database "+
+                                " for the energetic efficiency ",
+             keywords:['Monitoring','IOT','Egauge meter',
+               'Power measurement','Push Api','Time serie database'],
+             image:require('../assets/acome.png'),
+             },
+             {start:"From 03/08/2018",
+             end:"30/09/2018",
+             title:"Internship at GREEPSYS MAROC in the department of electricity",
+             description:" The work carried out during this internship was the study of the"+
+                          " dimensioning and the installation of"+
+                          "a system of solar energy for the feeding of an isolated house",
+             keywords:['Solar energy','Solar panels','Electrical wires size calculation',
+             'Circuit protection','Battery capacity calculation'
+               ],
+             image:require('../assets/greepsys.png'),
+             }
+          ]
+        }
+    }
+}
+</script>
 <style >
   .img-container{
      

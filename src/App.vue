@@ -10,6 +10,11 @@
           </transition>
           <button id="gototop">Go to top</button>
         </div>
+        <div class="col-sm-3 p-0 m-0  slide-bg ">
+          <div class="p-2 text-white text-center">
+            Design by me with VueJS and a lot of &#x2764;
+          </div>
+        </div>
       </div>
    </div>
 </template>

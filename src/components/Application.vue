@@ -5,14 +5,14 @@
             <div class="row h-100 back1 justify-content-center align-items-center">
                 <div class="col-sm-8  py-3">
                     <h1 class="text-center text-white text-uppercase"> <strong>Sawadogo Ousseni </strong></h1>
-                   <h3 class="text-warning text-center"><strong>Electronics Electrotechnics and Automatics Ingeneering Student </strong></h3>
-                   <h5 class="text-white  "><strong> 
+                   <h3 class="text-warning text-center"><strong>Future Electronics Electrotechnics and Automatics Engineer </strong></h3>
+                   <p class="text-white  " style="font-size:20px;">
                        Passionate by electronics, embeded systems, autamations, 
-                       and electrical engineering i am now at the end of my training 
-                       programme and i am looking for an internship of final year project. 
+                       and electrical engineering.
+                       Currently I am in my graduation internchip at ConnectToAll and
                        <br>
-                       I am open to any kind of challenge related to these fields then do not hesitate to informe in case you have some propositions.
-                       </strong></h5>
+                       I am open to any kind of challenges related to these fields then do not hesitate to inform me in case you have some propositions.
+                       </p>
                 </div>
             </div>
        </div>
