@@ -27,6 +27,15 @@ export default {
         return {
             certificates:[
                 {
+                    title:"Labview Real-Time 1",
+                     image:require("../assets/certificates/labview-real-time1.png")
+                 },
+                 {
+                    title:"Labview FPGA ",
+                     image:require("../assets/certificates/labview-fpga.png")
+                 },
+
+                {
                     title:"Labview Core 2 2019",
                      image:require("../assets/certificates/labview-core2.png")
                  },
