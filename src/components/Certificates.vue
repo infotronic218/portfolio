@@ -6,13 +6,13 @@
        </div>
        <div class="col-sm-12 ">
            
-        <div v-for="(certificate, index)  in certificates"  :key="index" class="row mt-2 align-items-center justify-content-center ">
-            <div class="col-sm-12">
-                <div class="card">
+        <div  class="row mt-2  ">
+            <div class="col-sm-6 p-1 " v-for="(certificate, index)  in certificates"  :key="index">
+                <div class="card h-100">
                     <div class="card-header">
-                        <h4 class="text-center"> <strong> {{certificate.title}}</strong> </h4>
+                        <h5 class="text-center"> <strong> {{certificate.title}}</strong> </h5>
                     </div>
-                    <div class="card-body p-0">
+                    <div class="card-body p-0 ">
                         <img class="img" :src="certificate.image">
                     </div>
                 </div>
