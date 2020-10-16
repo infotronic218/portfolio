@@ -11,19 +11,19 @@
                        <h6 class="text-white text-uppercase"><strong> Electronics and embeded systems</strong></h6>
                     </div>
                     <div class="card-body">
-                       <span class="badge badge-10 m-1 p-2">Analogics Electronics</span>
-                       <span class="badge badge-10 m-1 p-2">Numerics Electronics</span>
-                       <span class="badge badge-10  m-1 p-2">Power of Electronics</span>
-                       <span class="badge badge-10 m-1 p-2">Electronics of systems</span>
-                       <span class="badge badge-10 m-1 p-2">Microcontrollers and microprocessors architectures</span>
-                       <span class="badge badge-10  m-1 p-2">FPGA Design</span>
-                       <span class="badge badge-10 m-1 p-2">PCB </span>
-                       <span class="badge badge-10 m-1 p-2">DAC </span>
-                       <span class="badge badge-10 m-1 p-2">ADC </span>
-                       <span class="badge badge-10 m-1 p-2">PWM </span>
-                       <span class="badge badge-10 m-1 p-2">USART </span>
-                       <span class="badge badge-10 m-1 p-2">I2C </span>
-                       <span class="badge badge-10 m-1 p-2">SPI </span>
+                       <span class="badge badge-10 m-1 p-2"> Analogics Electronics</span>
+                       <span class="badge badge-10 m-1 p-2"> Numerics Electronics</span>
+                       <span class="badge badge-10  m-1 p-2"> Power of Electronics</span>
+                       <span class="badge badge-10 m-1 p-2"> Electronics of systems</span>
+                       <span class="badge badge-10 m-1 p-2"> Microcontrollers and microprocessors architectures</span>
+                       <span class="badge badge-10  m-1 p-2"> FPGA Design</span>
+                       <span class="badge badge-10 m-1 p-2"> PCB </span>
+                       <span class="badge badge-10 m-1 p-2"> DAC </span>
+                       <span class="badge badge-10 m-1 p-2"> ADC </span>
+                       <span class="badge badge-10 m-1 p-2"> PWM </span>
+                       <span class="badge badge-10 m-1 p-2"> USART </span>
+                       <span class="badge badge-10 m-1 p-2"> I2C </span>
+                       <span class="badge badge-10 m-1 p-2"> SPI </span>
                     </div>
                   </div>
              </div>
@@ -34,9 +34,9 @@
                        <h6 class="text-white text-uppercase"><strong> Electrotechnics</strong></h6>
                     </div>
                     <div class="card-body">
-                        <span class="badge badge-10 m-1 p-2">Electrical machines</span>
-                        <span class="badge badge-10 m-1 p-2">Electrical installation design </span>
-                        <span class="badge badge-10 m-1 p-2">Electrical machine modelisation and commande</span>
+                        <span class="badge badge-10 m-1 p-2"> Electrical machines</span>
+                        <span class="badge badge-10 m-1 p-2"> Electrical installation design </span>
+                        <span class="badge badge-10 m-1 p-2"> Electrical machine modelisation and commande</span>
                     </div>
                   </div>
              </div>
@@ -47,11 +47,11 @@
                        <h6 class="text-white text-uppercase"><strong>   Automatics controls</strong></h6>
                     </div>
                     <div class="card-body">
-                           <span class="badge badge-10 m-1 p-2">Linears Systems corrections</span>
-                           <span class="badge badge-10 m-1 p-2">State feedback modelisations of systems</span>
-                           <span class="badge badge-10 m-1 p-2">Discrets time systems</span>
-                           <span class="badge badge-10 m-1 p-2">Automatic fuzzy control</span>
-                           <span class="badge badge-10 m-1 p-2">Numerics Controls</span>
+                           <span class="badge badge-10 m-1 p-2"> Linears Systems corrections</span>
+                           <span class="badge badge-10 m-1 p-2"> State feedback modelisations of systems</span>
+                           <span class="badge badge-10 m-1 p-2"> Discrets time systems</span>
+                           <span class="badge badge-10 m-1 p-2"> Automatic fuzzy control</span>
+                           <span class="badge badge-10 m-1 p-2"> Numerics Controls</span>
                     </div>
                   </div>
              </div>
@@ -62,15 +62,15 @@
                       <h6 class="text-white text-uppercase"><strong>  Automation</strong></h6>
                     </div>
                     <div class="card-body">
-                         <span class="badge badge-10 m-1 p-2">Grafcet Design</span>
-                       <span class="badge badge-10 m-1 p-2">Ladder programming</span>
-                       <span class="badge badge-10 m-1 p-2">TIA PORTAL of Siemens</span>
-                       <span class="badge badge-10 m-1 p-2">EM4 of Crouzet</span>
-                        <span class="badge badge-10 m-1 p-2">ASI</span>
-                        <span class="badge badge-10 m-1 p-2">PROFIBUS</span>
-                        <span class="badge badge-10 m-1 p-2">MODBUS</span>
-                        <span class="badge badge-10 m-1 p-2">CAN</span>
-                        <span class="badge badge-10 m-1 p-2">ETHERNET</span>
+                         <span class="badge badge-10 m-1 p-2"> Grafcet Design</span>
+                       <span class="badge badge-10 m-1 p-2"> Ladder programming</span>
+                       <span class="badge badge-10 m-1 p-2"> TIA PORTAL of Siemens</span>
+                       <span class="badge badge-10 m-1 p-2"> EM4 of Crouzet</span>
+                        <span class="badge badge-10 m-1 p-2"> ASI</span>
+                        <span class="badge badge-10 m-1 p-2"> PROFIBUS</span>
+                        <span class="badge badge-10 m-1 p-2"> MODBUS</span>
+                        <span class="badge badge-10 m-1 p-2"> CAN</span>
+                        <span class="badge badge-10 m-1 p-2"> ETHERNET</span>
 
                     </div>
                   </div>
@@ -81,22 +81,21 @@
                         <h6 class="text-white text-uppercase"><strong>Programming Languages and frameworks</strong></h6>
                     </div>
                     <div class="card-body">
-                       <span class="badge badge-10 m-1 p-2">C/C++</span>
-                        <span class="badge badge-10 m-1 p-2">Assembly</span>
-                       <span class="badge badge-10 m-1 p-2">Java</span>
-                       <span class="badge badge-10 m-1 p-2">Python</span>
-                       <span class="badge badge-10 m-1 p-2">JavaScript</span>
-                       <span class="badge badge-10 m-1 p-2">NodeJS/VueJS</span>
-                       <span class="badge badge-10 m-1 p-2">Java EE/ Spring Boot </span>
-                       <span class="badge badge-10 m-1 p-2">Python/Django </span>
-                       <span class="badge badge-10 m-1 p-2">Android Studio </span>
-                       <span class="badge badge-10 m-1 p-2">Linux/ROS</span>
-                       <span class="badge badge-10 m-1 p-2">FreeRTOS</span>
-                       <span class="badge badge-10 m-1 p-2">Eclipse </span>
-                       <span class="badge badge-10 m-1 p-2">Pycharm</span>
-                       <span class="badge badge-10 m-1 p-2">OpenCV</span>
-                       <span class="badge badge-10 m-1 p-2">VHDL </span>
-                       <span class="badge badge-10 m-1 p-2">SQL </span>
+                        <span class="badge badge-10 m-1 p-2"> Assembly</span>
+                       <span class="badge badge-10 m-1 p-2"> Java</span>
+                       <span class="badge badge-10 m-1 p-2"> Python</span>
+                       <span class="badge badge-10 m-1 p-2"> JavaScript</span>
+                       <span class="badge badge-10 m-1 p-2" >NodeJS/VueJS</span>
+                       <span class="badge badge-10 m-1 p-2"> Java EE/ Spring Boot </span>
+                       <span class="badge badge-10 m-1 p-2"> Python/Django </span>
+                       <span class="badge badge-10 m-1 p-2"> Android Studio </span>
+                       <span class="badge badge-10 m-1 p-2"> Linux/ROS</span>
+                       <span class="badge badge-10 m-1 p-2"> FreeRTOS</span>
+                       <span class="badge badge-10 m-1 p-2"> Eclipse </span>
+                       <span class="badge badge-10 m-1 p-2"> Pycharm</span>
+                       <span class="badge badge-10 m-1 p-2"> OpenCV</span>
+                       <span class="badge badge-10 m-1 p-2"> VHDL </span>
+                       <span class="badge badge-10 m-1 p-2"> SQL </span>
                        
                     </div>
                   </div>
@@ -107,21 +106,21 @@
                        <h6 class="text-white text-uppercase"><strong> Simulation and design softwares </strong></h6>
                     </div>
                     <div class="card-body">
-                       <span class="badge badge-10 m-1 p-2">Proteus/Isis</span>
-                       <span class="badge badge-10 m-1 p-2">Mathlab/Similink</span>
-                       <span class="badge badge-10 m-1 p-2">LabView</span>
-                       <span class="badge badge-10 m-1 p-2">ModelSim</span>
-                       <span class="badge badge-10 m-1 p-2">Xilinx ISE</span>
-                       <span class="badge badge-10 m-1 p-2">PowerSim</span>
-                       <span class="badge badge-10 m-1 p-2">AVR Studio</span>
-                       <span class="badge badge-10 m-1 p-2">Microchip MPlab XC8</span>
-                       <span class="badge badge-10 m-1 p-2">KiCad</span>
-                       <span class="badge badge-10 m-1 p-2">Altium Designer</span>
+                       <span class="badge badge-10 m-1 p-2"> Proteus/Isis</span>
+                       <span class="badge badge-10 m-1 p-2"> Mathlab/Similink</span>
+                       <span class="badge badge-10 m-1 p-2"> LabView</span>
+                       <span class="badge badge-10 m-1 p-2"> ModelSim</span>
+                       <span class="badge badge-10 m-1 p-2"> Xilinx ISE</span>
+                       <span class="badge badge-10 m-1 p-2"> PowerSim</span>
+                       <span class="badge badge-10 m-1 p-2"> AVR Studio</span>
+                       <span class="badge badge-10 m-1 p-2"> Microchip MPlab XC8</span>
+                       <span class="badge badge-10 m-1 p-2"> KiCad</span>
+                       <span class="badge badge-10 m-1 p-2"> Altium Designer</span>
                        
-                       <span class="badge badge-10 m-1 p-2">Easy Eda</span>
-                       <span class="badge badge-10 m-1 p-2">Catia V5</span>
-                       <span class="badge badge-10 m-1 p-2">Schemaplic</span>
-                       <span class="badge badge-10 m-1 p-2">Control Station</span>
+                       <span class="badge badge-10 m-1 p-2"> Easy Eda</span>
+                       <span class="badge badge-10 m-1 p-2"> Catia V5</span>
+                       <span class="badge badge-10 m-1 p-2"> Schemaplic</span>
+                       <span class="badge badge-10 m-1 p-2"> Control Station</span>
                     </div>
                   </div>
              </div>
@@ -132,14 +131,14 @@
                        <h6 class="text-white text-uppercase"><strong> Embeded development boards </strong></h6>
                     </div>
                     <div class="card-body">
-                       <span class="badge badge-10 m-1 p-2">Arduino</span>
-                       <span class="badge badge-10 m-1 p-2">Node MCU ESP8266</span>
-                       <span class="badge badge-10 m-1 p-2">Raspberry Pi</span>
-                       <span class="badge badge-10 m-1 p-2">PIC 16</span>
-                       <span class="badge badge-10 m-1 p-2">Atmel Avr</span>
-                       <span class="badge badge-10 m-1 p-2">STM 32</span>
-                       <span class="badge badge-10 m-1 p-2">Xilinx Spartan 3E</span>
-                       <span class="badge badge-10 m-1 p-2">NI CompactRIO</span>
+                       <span class="badge badge-10 m-1 p-2"> Arduino</span>
+                       <span class="badge badge-10 m-1 p-2"> Node MCU ESP8266</span>
+                       <span class="badge badge-10 m-1 p-2"> Raspberry Pi</span>
+                       <span class="badge badge-10 m-1 p-2"> PIC 16F</span>
+                       <span class="badge badge-10 m-1 p-2"> Atmel Avr</span>
+                       <span class="badge badge-10 m-1 p-2"> STM 32</span>
+                       <span class="badge badge-10 m-1 p-2"> Xilinx Spartan 3E</span>
+                       <span class="badge badge-10 m-1 p-2"> NI CompactRIO</span>
                        
                     </div>
                   </div>

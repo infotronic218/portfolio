@@ -5,14 +5,16 @@
             <div class="row h-100 back1 justify-content-center align-items-center">
                 <div class="col-sm-8  py-3">
                     <h1 class="text-center text-white text-uppercase"> <strong>Sawadogo Ousseni </strong></h1>
-                   <h3 class="text-warning text-center"><strong>Future Electronics Electrotechnics and Automatics Engineer </strong></h3>
+                   <h3 class="text-warning text-center"><strong>Young Electronics, Electrotechnics and Automatics Engineer </strong></h3>
                    <p class="text-white  " style="font-size:20px;">
-                       Passionate by electronics, embeded systems, autamations, 
+                       Passionate by electronics, embedded systems, autamations, 
                        and electrical engineering.
-                       Currently I am in my graduation internchip at ConnectToAll and
-                       <br>
-                       I am open to any kind of challenges related to these fields then do not hesitate to inform me in case you have some propositions.
-                       </p>
+                       I am a young graduate Electronics and Embedded Systems Engineer . I am always motivated
+                       to take news challenges , to learn , and to work on exciting projects. 
+                       So I am open to any kind of propositions related to my domain of competences. Feel free to write 
+                       me for any kind of works or projects.
+                   </p>
+                     
                 </div>
             </div>
        </div>
@@ -20,6 +22,15 @@
     </div>
 </div>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            description :""
+        }
+    },
+}
+</script>
 <style>
   .back{
       background-image: url("/background1.png");

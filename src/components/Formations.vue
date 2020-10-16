@@ -34,13 +34,13 @@ export default {
                     title:"Ingeneering Student in Electronics Electrotechnics and Automatics",
                     period:"2017-2020",
                     school:"University Abdelmalek Essadi of Tanger (Morroco )",
-                    detail:"Faculty of Sciences and Techniques of Tanger"
+                    detail:"Faculty of Sciences and Technologies of Tanger"
                 },
                  {
                     title:"Diploma of Scientific and Technical University Studies (DEUST) in Electricals and Mecanicals Engineering ",
                     period:"2015-2017",
                     school:"University Assan 1er of Settat (Morroco)",
-                    detail:"Faculty of Sciences and Techniques of Settat"
+                    detail:"Faculty of Sciences and Technologies of Settat"
                 },
                  {
                     title:"Technologique Bacalaureat  Electronics Option",

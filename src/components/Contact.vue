@@ -5,7 +5,7 @@
                <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-address-card" aria-hidden="true"></i> Contact</strong></h4>
        </div>
        <div class="col-sm-8">
-          <h5 class="text-center p-2">For more informations about myself or to ask any questions, don't hesitate to contact me throught 
+          <h5 class="text-center p-2">For more informations about me or to ask any questions, don't hesitate to contact me throught 
               one of my contats listed below.
           </h5>
        </div>
@@ -15,9 +15,9 @@
                    <div class="card h-100">
                         <div class="card-header">
                           <h4 class="text-center">
-                              <i class="fa fa-phone text-primary" aria-hidden="true"></i>
-                               Phone</h4>   
-                            <h6 class="text-center py-2"> <a class="text-center" href="tel:+212631053884" target="blank">00212631053884</a></h6>
+                              <i class="fab fa-github-alt text-primary" aria-hidden="true"></i>
+                               Github</h4>   
+                            <h6 class="text-center py-2"> <a class="text-center" href="https://github.com/infotronic218" target="blank">Github</a></h6>
                         </div>
                     </div>
                 </div>

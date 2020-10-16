@@ -4,56 +4,102 @@
                <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fas fa-project-diagram    "></i> Projects</strong></h4>
        </div>
        <div class="col-sm-12">
-
-
          <div class="row  align-items-center">
-          <div class="col-sm-2">
-            <h6 class="text-center text-primary"> 
-                    <strong>
-                    <i class="fas fa-calendar    "> </i>
-                   January 2020</strong>
-                </h6>
-          </div>
-         <div class="col-sm-10 mt-2">
-            <div class="card ">
-               <div class="card-body">
-                  <h5 class="text-primary">DC Motor speed control  circuit design  </h5>
-                  <p>The goal of the project was to control the speed of a DC motor using a PID controller and H brigde. 
-                     It's also contains an android application build in android allowing the user user to specify the desired 
-                     speed and the direction.
-                  </p>
-                  <h5 class="">Keywords </h5>
-                  <h5 >
-                     <span class="badge badge-7 m-1">PWM</span> 
-                     <span class="badge badge-7 m-1">MOSFET</span>
-                     <span class="badge badge-7 m-1">H-Bridge</span>
-                     <span class="badge badge-7 m-1">ATMEGA328P</span>
-                     <span class="badge badge-7 m-1">Android Studio</span>
-                     <span class="badge badge-7 m-1">AVR Studio</span>
-                     <span class="badge badge-7 m-1">HC06</span>
-                     <span class="badge badge-7 m-1">JAVA</span>
-                     <span class="badge badge-7 m-1">PID</span>
-                     <span class="badge badge-7 m-1">PCB Design</span>
-                     <span class="badge badge-7 m-1">KICAD</span>
-                  </h5>
-                  <h5 hidden>Screenshots </h5>
-                   <galery :images="images" :index="null" @close="index = null"></galery>
-                  <!--- <div class="row">
-                   <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
-                       <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
-                   </div>
-                   
-                   </div>
-                   -->
-                   <div> 
-                   </div>
-               
+            <div class="col-sm-2">
+               <h6 class="text-center text-primary"> 
+                     <strong>
+                     <i class="fas fa-calendar    "> </i>
+                     October 2020</strong>
+                  </h6>
+            </div>
+            <div class="col-sm-10 mt-2">
+               <div class="card ">
+                  <div class="card-body">
+                     <h5 class="text-primary">DC Buck converter power supply design (50W, 10A, 5V) with STM32</h5>
+                     <p>This project is the design of 50W Synchronous Buck converter with 10A and 5V outpout. This project involved many design 
+                        tools like Matlab/Simulink, Orcad/PSPice and PowerSim. We design the converter mathematical model and tunne the PI 
+                        controller in order to have the best response for the system. An STM32 MCU was used to run the PI controller code. The PCB of 
+                        the board is designed in Orcad/Cadense. 
+                     </p>
+                     <h5 class="">Keywords </h5>
+                     <h5 >
+                        <span class="badge badge-7 m-1">PWM</span> 
+                        <span class="badge badge-7 m-1">MOSFET</span>
+                        <span class="badge badge-7 m-1">STM32</span>
+                        <span class="badge badge-7 m-1">CubeMx</span>
+                        <span class="badge badge-7 m-1">C</span>
+                        <span class="badge badge-7 m-1">PI Controler </span>
+                        <span class="badge badge-7 m-1">PCB</span>
+                        <span class="badge badge-7 m-1">Orcad</span>
+                        <span class="badge badge-7 m-1">Matlab/Simulink</span>
+                        <span class="badge badge-7 m-1">PSpice</span>
+                        <span class="badge badge-7 m-1">Current Sensor</span>
+                     </h5>
+                     <h5 hidden>Screenshots </h5>
+                     <galery :images="images" :index="null" @close="index = null"></galery>
+                     <!--- <div class="row">
+                     <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
+                        <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
+                     </div>
+                     
+                     </div>
+                     -->
+                     <div> 
+                     </div>
+                  
+                  </div>
                </div>
             </div>
-         </div>
        </div>
 
-              <div class="row  align-items-center">
+         <div class="row  align-items-center">
+            <div class="col-sm-2">
+               <h6 class="text-center text-primary"> 
+                     <strong>
+                     <i class="fas fa-calendar    "> </i>
+                     January 2020</strong>
+                  </h6>
+            </div>
+            <div class="col-sm-10 mt-2">
+               <div class="card ">
+                  <div class="card-body">
+                     <h5 class="text-primary">DC Motor speed control  circuit design  </h5>
+                     <p>The goal of the project was to control the speed of a DC motor using a PID controller and H brigde. 
+                        It's also contains an android application build in android allowing the user user to specify the desired 
+                        speed and the direction.
+                     </p>
+                     <h5 class="">Keywords </h5>
+                     <h5 >
+                        <span class="badge badge-7 m-1">PWM</span> 
+                        <span class="badge badge-7 m-1">MOSFET</span>
+                        <span class="badge badge-7 m-1">H-Bridge</span>
+                        <span class="badge badge-7 m-1">ATMEGA328P</span>
+                        <span class="badge badge-7 m-1">Android Studio</span>
+                        <span class="badge badge-7 m-1">AVR Studio</span>
+                        <span class="badge badge-7 m-1">HC06</span>
+                        <span class="badge badge-7 m-1">JAVA</span>
+                        <span class="badge badge-7 m-1">PID</span>
+                        <span class="badge badge-7 m-1">PCB Design</span>
+                        <span class="badge badge-7 m-1">KICAD</span>
+                     </h5>
+                     <h5 hidden>Screenshots </h5>
+                     <galery :images="images" :index="null" @close="index = null"></galery>
+                     <!--- <div class="row">
+                     <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
+                        <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
+                     </div>
+                     
+                     </div>
+                     -->
+                     <div> 
+                     </div>
+                  
+                  </div>
+               </div>
+            </div>
+       </div>
+
+            <div class="row  align-items-center">
           <div class="col-sm-2">
             <h6 class="text-center text-primary"> 
                     <strong>
