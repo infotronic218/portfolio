@@ -48,7 +48,7 @@ export default {
     data(){
        return{ experiences:[
             {start:"Mars 2020",
-             end:"Now",
+             end:"July 2020",
              title:"Graduation Internchip at ConnectToAll Morroco Tanger",
              description:"Working with IOT Team to designing Wireless NetWork sensors for monitoring irrigation data ",
              keywords:['PCB DESIGN','Kicad','GSM','RF','IOT','Wireless Network',
