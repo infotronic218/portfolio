@@ -31,19 +31,19 @@ export default {
         return {
             studies:[
                 {
-                    title:"Ingeneering Student in Electronics Electrotechnics and Automatics",
+                    title:"Engineering Degree in Electronics Electrotechnics and Automatics",
                     period:"2017-2020",
                     school:"University Abdelmalek Essadi of Tanger (Morroco )",
                     detail:"Faculty of Sciences and Technologies of Tanger"
                 },
                  {
-                    title:"Diploma of Scientific and Technical University Studies (DEUST) in Electricals and Mecanicals Engineering ",
+                    title:"Degree of University Studies in Science and Technology (DEUST) in Electricals and Mecanicals Engineering ",
                     period:"2015-2017",
                     school:"University Assan 1er of Settat (Morroco)",
                     detail:"Faculty of Sciences and Technologies of Settat"
                 },
                  {
-                    title:"Technologique Bacalaureat  Electronics Option",
+                    title:"Bacalaureat degree in Technology, Electronics Option",
                     period:"2014-2015",
                     school:"Bethel Technical High School of Ougadougou (Burkina Faso )",
                     detail:""
