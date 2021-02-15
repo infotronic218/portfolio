@@ -47,10 +47,19 @@
 export default {
     data(){
        return{ experiences:[
+            {start:"September 2020",
+             end:"to present",
+             title:"Embedded Electronics Enginneer at ConnectToAll Morroco Tanger",
+             description:"Electronics circuits simulation and PCB design with (KiCad, Altium, LTSpice, Proteus)."+
+             "Software development with Python, C/C++, Arduino, Java/Android for (STM32, ESP32, Raspberry Pi, AVR).",
+             keywords:['PCB Design','Kicad',"Altium",'GSM',"FreeRTOS",
+               'Pyhton','Websocket','RestApi','C/C++','Raspberry Pi'],
+             image:require('../assets/c2a.png'),
+             },
             {start:"Mars 2020",
              end:"July 2020",
              title:"Graduation Internchip at ConnectToAll Morroco Tanger",
-             description:"Working with IOT Team to designing Wireless NetWork sensors for monitoring irrigation data ",
+             description:"Working with the IOT Team for the design of Wireless NetWork sensors for monitoring and control of irrigation system ",
              keywords:['PCB DESIGN','Kicad','GSM','RF','IOT','Wireless Network',
                'Pyhton','Websocket','RestApi','C/C++','Raspberry Pi'],
              image:require('../assets/c2a.png'),

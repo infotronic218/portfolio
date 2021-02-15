@@ -39,7 +39,7 @@ export default {
                  {
                     title:"Degree of University Studies in Science and Technology (DEUST) in Electricals and Mecanicals Engineering ",
                     period:"2015-2017",
-                    school:"University Assan 1er of Settat (Morroco)",
+                    school:"University Hassan 1er of Settat (Morroco)",
                     detail:"Faculty of Sciences and Technologies of Settat"
                 },
                  {

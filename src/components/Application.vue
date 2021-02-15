@@ -5,7 +5,7 @@
             <div class="row h-100 back1 justify-content-center align-items-center">
                 <div class="col-sm-8  py-3">
                     <h1 class="text-center text-white text-uppercase"> <strong>Sawadogo Ousseni </strong></h1>
-                   <h3 class="text-warning text-center"><strong>Young Electronics, Electrotechnics and Automatics Engineer </strong></h3>
+                   <h3 class="text-warning text-center"><strong>Junior Electronics, Electrotechnics and Automatics Engineer </strong></h3>
                    <p class="text-white  " style="font-size:20px;">
                        Passionate by electronics, embedded systems, autamations, 
                        and electrical engineering.
@@ -33,7 +33,7 @@ export default {
 </script>
 <style>
   .back{
-      background-image: url("/background1.png");
+      background-image: url("/background2.png");
       opacity: 1;
       background-size: 100% auto;
       background-repeat: no-repeat;

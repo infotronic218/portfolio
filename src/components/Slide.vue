@@ -9,7 +9,7 @@
            </div>
        </div>
        <h5 class="mt-3 text-white text-center text-uppercase"><router-link  to="/" class="text-white">Sawadogo Ousseni </router-link></h5>
-       <h6 class="text-center text-warning"> <strong>Young Electronics, Electrotechnics and Automatics Engineer </strong></h6>
+       <h6 class="text-center text-warning"> <strong>Junior Electronics, Electrotechnics and Automatics Engineer </strong></h6>
        <div class="row justify-content-center mt-5">
            <div class="col-sm-12 mb-3">
               <div class="list-group">
