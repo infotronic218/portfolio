@@ -4,7 +4,7 @@ import Vue from 'vue'
 import Application from './components/Application.vue'
 import Projects from './components/Projects.vue'
 import Competences from './components/Competences.vue'
-import Formations from './components/Formations.vue'
+import Education from './components/Education.vue'
 import Certificates from './components/Certificates.vue'
 import Experiences from './components/Experiences.vue'
 import Contact from './components/Contact.vue'
@@ -21,8 +21,8 @@ const routes = [{
         component: Competences
     },
     {
-        path: '/formations',
-        component: Formations
+        path: '/education',
+        component: Education
     }, {
         path: '/certificates',
         component: Certificates

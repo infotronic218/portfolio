@@ -1,7 +1,7 @@
 <template>
     <div class="container p-0 m-0 mb-3">
        <div class="col-sm-12 p-3 content-top-bg w-100">
-               <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-graduation-cap" aria-hidden="true"></i> Formations</strong></h4>
+               <h4 class="text-center page-title text-uppercase mt-2"><strong><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</strong></h4>
        </div>
        <div class="col-sm-12 ">
            
