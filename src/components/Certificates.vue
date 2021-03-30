@@ -27,6 +27,10 @@ export default {
         return {
             certificates:[
                 {
+                    title:"Complete Electronics Hardware design course",
+                     image:require("../assets/certificates/hardware_design.jpg")
+                 },
+                {
                     title:"Labview Real-Time 1",
                      image:require("../assets/certificates/labview-real-time1.png")
                  },

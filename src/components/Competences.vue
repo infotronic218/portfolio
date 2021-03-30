@@ -81,14 +81,15 @@
                         <h6 class="text-white text-uppercase"><strong>Programming Languages and frameworks</strong></h6>
                     </div>
                     <div class="card-body">
-                        <span class="badge badge-10 m-1 p-2"> Assembly</span>
+                        <span class="badge badge-10 m-1 p-2">Assembly</span>
                        <span class="badge badge-10 m-1 p-2"> Java</span>
                        <span class="badge badge-10 m-1 p-2"> Python</span>
+                       <span class="badge badge-10 m-1 p-2"> C/C++</span>
                        <span class="badge badge-10 m-1 p-2"> JavaScript</span>
                        <span class="badge badge-10 m-1 p-2" >NodeJS/VueJS</span>
                        <span class="badge badge-10 m-1 p-2"> Java EE/ Spring Boot </span>
-                       <span class="badge badge-10 m-1 p-2"> Python/Django </span>
-                       <span class="badge badge-10 m-1 p-2"> Android Studio </span>
+                       <span class="badge badge-10 m-1 p-2"> Python Web(Django, Flask) </span>
+                       <span class="badge badge-10 m-1 p-2"> Android/Java </span>
                        <span class="badge badge-10 m-1 p-2"> Linux/ROS</span>
                        <span class="badge badge-10 m-1 p-2"> FreeRTOS</span>
                        <span class="badge badge-10 m-1 p-2"> Eclipse </span>
