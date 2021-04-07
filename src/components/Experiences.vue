@@ -48,7 +48,7 @@ export default {
     data(){
        return{ experiences:[
             {start:"September 2020",
-             end:"to present",
+             end:"present",
              title:"Embedded Electronics Enginneer at ConnectToAll Morroco Tanger",
              description:"Electronics circuits simulation and PCB design with (KiCad, Altium, LTSpice, Proteus)."+
              "Software development with Python, C/C++, Arduino, Java/Android for (STM32, ESP32, Raspberry Pi, AVR).",
