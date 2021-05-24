@@ -15,8 +15,8 @@
             <div class="col-sm-10 mt-2">
                <div class="card ">
                   <div class="card-body">
-                     <h5 class="text-primary">DC Buck converter power supply design (50W, 10A, 5V) with STM32</h5>
-                     <p>This project is the design of 50W Synchronous Buck converter with 10A and 5V outpout. This project involved many design 
+                     <h5 class="text-primary">DC Buck converter power supply design (300W, 25A, 12V) with STM32</h5>
+                     <p>This project is the design of 300W Synchronous Buck converter with 25A and 12V outpout. This project involved many design 
                         tools like Matlab/Simulink, Orcad/PSPice and PowerSim. We design the converter mathematical model and tunne the PI 
                         controller in order to have the best response for the system. An STM32 MCU was used to run the PI controller code. The PCB of 
                         the board is designed in Orcad/Cadense. 

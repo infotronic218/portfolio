@@ -7,12 +7,14 @@
                     <h1 class="text-center text-white text-uppercase"> <strong>Sawadogo Ousseni </strong></h1>
                    <h3 class="text-warning text-center"><strong>Junior Electronics, Electrotechnics and Automatics Engineer </strong></h3>
                    <p class="text-white  " style="font-size:20px;">
-                       Passionate by electronics, embedded systems, autamations, 
+                       Passionate about electronics, embedded systems, autamations, 
                        and electrical engineering.
-                       I am a young graduate Electronics and Embedded Systems Engineer . I am always motivated
-                       to take news challenges , to learn , and to work on exciting projects. 
-                       So I am open to any kind of propositions related to my domain of competences. Feel free to write 
-                       me for any kind of works or projects.
+                       I am a young Electronics and Embedded Systems Engineer . I am always motivated
+                       to take news challenges, learn , and work on exciting projects. 
+                       My goals are to work in challenging projects so I continue my leaning journey and 
+                       improve my skills on electronics engineering.
+                       I am open to any proprostions about electronics and embedded systems so to not hesitate to 
+                       contact me.
                    </p>
                      
                 </div>

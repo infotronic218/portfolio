@@ -27,6 +27,10 @@ export default {
         return {
             certificates:[
                 {
+                    title:"Mastering RTOS: Hands on FreeRTOS and STM32Fx with Debugging",
+                     image:"https://udemy-certificate.s3.amazonaws.com/image/UC-e015b911-3657-4b28-beb2-90420439ad56.jpg"
+                 },
+                {
                     title:"Complete Electronics Hardware design course",
                      image:require("../assets/certificates/hardware_design.jpg")
                  },
