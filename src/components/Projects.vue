@@ -27,7 +27,7 @@
                         <span class="badge badge-7 m-1">MOSFET</span>
                         <span class="badge badge-7 m-1">STM32</span>
                         <span class="badge badge-7 m-1">CubeMx</span>
-                        <span class="badge badge-7 m-1">C</span>
+                        <span class="badge badge-7 m-1">C/C++</span>
                         <span class="badge badge-7 m-1">PI Controler </span>
                         <span class="badge badge-7 m-1">PCB</span>
                         <span class="badge badge-7 m-1">Orcad</span>
