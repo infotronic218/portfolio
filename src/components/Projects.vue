@@ -167,15 +167,15 @@
                      <span class="badge badge-7 m-1">WebSocket</span>
                      <span class="badge badge-7 m-1">Pcb design</span>
                   </h5>
-                  <h5 hidden>Screenshots </h5>
+                  <h5 >Screenshots </h5>
                    <galery :images="images" :index="null" @close="index = null"></galery>
-                  <!--- <div class="row">
+                  <div class="row">
                    <div class="col-sm-4" v-for="(image, imageIndex) in images" :key="imageIndex">
                        <img class="image"  @click="index = imageIndex" :src="'/'+'projects/3s/3s.png'">
                    </div>
                    
                    </div>
-                   -->
+                   
                    <div> 
                    </div>
                
@@ -311,15 +311,19 @@
             </div>
          </div>
       </div>
+
+       <project/>
        </div>
     </div>
 </template>
 
 <script>
 import galery from 'vue-gallery';
+import project from './Element/Projet.vue'
 export default {
 components:{
- galery
+ galery,
+project
 },
  data() {
     return {
@@ -331,7 +335,7 @@ components:{
                 'https://dummyimage.com/1280/000000/ffffff',
                 'https://dummyimage.com/400/000000/ffffff',
              ],
-             index:null
+             index:3
           }
        ],
        images:[
