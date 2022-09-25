@@ -9,7 +9,7 @@
                <h6 class="text-center text-primary"> 
                      <strong>
                      <i class="fas fa-calendar    "> </i>
-                     October 2020</strong>
+                     October 2021</strong>
                   </h6>
             </div>
             <div class="col-sm-10 mt-2">

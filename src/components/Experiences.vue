@@ -57,7 +57,7 @@ export default {
              image:require('../assets/schneider.png'),
              },
             {start:"September 2020",
-             end:"present",
+             end:"August 2021",
              title:"Embedded Electronics Enginneer at ConnectToAll Morroco Tanger",
              description:"Electronics circuits simulation and PCB design with (KiCad, Altium, LTSpice, Proteus)."+
              "Software development with Python, C/C++, Arduino, Java/Android for (STM32, ESP32, Raspberry Pi, AVR).",
@@ -69,7 +69,7 @@ export default {
             {start:"Mars 2020",
              end:"July 2020",
              title:"Graduation Internchip at ConnectToAll Morroco Tanger",
-             description:"Working with the IOT Team for the design of Wireless NetWork sensors for monitoring and control of irrigation system ",
+             description:"Working with the IOT Team for the design and the development of  Wireless NetWork sensors for monitoring and controlling an agriculture irrigation system ",
              keywords:['PCB DESIGN','Kicad','GSM','RF','IOT','Wireless Network',
                'Pyhton','Websocket','RestApi','C/C++','Raspberry Pi'],
              image:require('../assets/c2a.png'),
@@ -102,7 +102,7 @@ export default {
 </script>
 <style >
   .img-container{
-     
+     width: 150px;
   }
   .img{
       max-width: 100%;
