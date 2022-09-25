@@ -312,7 +312,7 @@
          </div>
       </div>
 
-       <project/>
+       <project hidden/>
        </div>
     </div>
 </template>

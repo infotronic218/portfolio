@@ -29,15 +29,30 @@
                   <h5 class="">Screenshots</h5>
                   <div class="card-body">
                     <div class="row">
-                       <div v-for="(image, index) in project.images" :key="index"  class="col-sm-4">
-                         <div  class="card m-2">
+                       <div v-for="(image, index) in project.images" :key="index"  class="col-sm-6">
+                         <div  class="card align-center">
                             <div class="img-container  p-0 mx-0 my-2">
                                 <img class="img-project" :src="image">
                             </div>
                          </div>
-
                        </div>
                     </div>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col-sm-6">
+                              <div class="card bg-primary ">
+                                 <button class="btn btn-primary text-center">
+                                    <i class="fa fa-arrow-left"></i>
+                                 </button>
+                              </div>
+                        </div>
+                        <div class="col-sm-6">
+                              <div class="card bg-primary  ">
+                                 <button class="btn btn-secondary text-center "><i class="fa fa-arrow-right"></i></button>
+                              </div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -52,8 +67,7 @@ export default {
         images:[
                 'https://dummyimage.com/800/ffffff/000000',
                 'https://dummyimage.com/1600/ffffff/000000',
-                'https://dummyimage.com/1280/000000/ffffff',
-                'https://dummyimage.com/400/000000/ffffff'
+                
             ],
         project:{
             title:" Creating a graphical desktop application for managing a "+
@@ -66,8 +80,8 @@ export default {
             images:[
                 'https://dummyimage.com/800/ffffff/000000',
                 'https://dummyimage.com/1600/ffffff/000000',
-                'https://dummyimage.com/1280/000000/ffffff',
-                'https://dummyimage.com/400/000000/ffffff',
+               // 'https://dummyimage.com/1280/000000/ffffff',
+                //'https://dummyimage.com/400/000000/ffffff',
             ]
         }
        }
