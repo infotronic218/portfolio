@@ -26,6 +26,14 @@ export default {
     data() {
         return {
             certificates:[
+                 {
+                    title:"Advanced Linux: The Linux Kernel",
+                     image:require("../assets/certificates/linux-kernel.png")
+                 },
+                 {
+                    title:"C++ Programming: Advanced Topics",
+                     image:require("../assets/certificates/cpp-at.png")
+                 },
                 {
                     title:"Mastering RTOS: Hands on FreeRTOS and STM32Fx with Debugging",
                      image:"https://udemy-certificate.s3.amazonaws.com/image/UC-e015b911-3657-4b28-beb2-90420439ad56.jpg"

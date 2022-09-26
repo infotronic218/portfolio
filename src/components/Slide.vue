@@ -15,7 +15,7 @@
               <div class="list-group">
                   <router-link  to="competences" class="list-group-item  m-1 btn btn-primary list-group-item-action" exact-active-class="active"><strong><i class="fa fa-cogs" aria-hidden="true"></i> Competences</strong></router-link>
                   <router-link to="experiences" class="list-group-item btn btn-primary m-1 list-group-item-action" exact-active-class="active"><strong><i class="fa fa-star"></i> Experiences</strong></router-link>
-                  <router-link  to="projects" class="list-group-item btn btn-primary m-1  list-group-item-action " exact-active-class="active"><strong><i class="fas fa-project-diagram    "></i> Projects</strong></router-link>
+                  <router-link  to="/projects" class="list-group-item btn btn-primary m-1  list-group-item-action " exact-active-class="active"><strong><i class="fas fa-project-diagram    "></i> Projects</strong></router-link>
                   <router-link  to="education" class="list-group-item btn btn-primary m-1  list-group-item-action " exact-active-class="active"><strong><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</strong></router-link>
                   <router-link  to="certificates" class="list-group-item btn btn-primary m-1  list-group-item-action " exact-active-class="active"><strong><i class="fas fa-certificate    "></i> Certificates</strong></router-link>
                   <router-link  to="contact" class="list-group-item btn btn-primary m-1  list-group-item-action " exact-active-class="active"><strong><i class="fa fa-address-card" aria-hidden="true"></i> Contact</strong></router-link>
