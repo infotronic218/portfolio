@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+        <loc>https://www.oussenisawadogo.me/</loc>
+        <lastmod>2020-07-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        </url>
+        <url>
+        <loc>https://www.oussenisawadogo.me/formations</loc>
+        <changefreq>weekly</changefreq>
+        </url>
+        <url>
+        <loc>https://www.oussenisawadogo.me/projects</loc>
+        <changefreq>weekly</changefreq>
+        </url>
+        <url>
+        <loc>https://www.oussenisawadogo.me/experiences</loc>
+        <changefreq>weekly</changefreq>
+        </url>
+        <url>
+        <loc>https://www.oussenisawadogo.me/certifications</loc>
+        <lastmod>2008-11-23</lastmod>
+        </url>
+        <url>
+        <loc>https://www.oussenisawadogo.me/contact</loc>
+        <lastmod>2008-11-23</lastmod>
+        </url>
+</urlset>
