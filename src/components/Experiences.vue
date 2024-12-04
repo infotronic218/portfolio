@@ -47,6 +47,15 @@
 export default {
     data(){
        return{ experiences:[
+        {start:"November 2023",
+             end:"Present",
+             title:"Embedded Enginneer for Power Application",
+             description:"Model based design on simulink, Matlab/Simulink"+
+             " and Embedded Coder for code generation. Control loops compensators design, analog signals samplings and PWM control.  ",
+             keywords:['Power System Simulation','Matlab',"STM32",'Embedded Coder',
+               'Code generation','Digital Controller Design','ADC','STM32CubeIDE', 'Power Factor Corrector(PFC)', 'TIMER', 'PWM'],
+             image:require('../assets/schneider.png'),
+             },
          {start:"April 2022",
              end:"September 2022",
              title:"Embedded Power Electronics Graduate Enginneer Schneider Electric",

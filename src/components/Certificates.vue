@@ -26,6 +26,10 @@ export default {
     data() {
         return {
             certificates:[
+                {
+                    title:"Mastering Microcontroller: STM32-LTDC, LCD-TFT, LVGL (MCU3)",
+                     image:require("../assets/certificates/lvgl-stm32.jpg")
+                 },
                  {
                     title:"Advanced Linux: The Linux Kernel",
                      image:require("../assets/certificates/linux-kernel.png")
